@@ -12,7 +12,7 @@ for line in f:
         dct = {}
         first = True
     else:
-        if first == True or PartOne == True:
+        if first or PartOne:
             for letter in word:
                 dct[letter] = True
             first = False
